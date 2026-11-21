@@ -1,0 +1,9 @@
+docker compose up -d --remove-orphans
+-up and remove orphans =comntainer no utulse delete and build alredy utl
+docker 	inspect $(docker compose ps -aq)
+-show all donne for each to know all donnne like ip...
+docker logs $(docker compose ps -aq)
+--to know logs 
+docker compose exec (fin baghi) (wachta baghi)
+exempl
+docker compose exec compose  compose --version
